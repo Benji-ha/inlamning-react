@@ -1,0 +1,19 @@
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 896px;
+  width: 414px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+background-color: #dbdbdb;
+
+}

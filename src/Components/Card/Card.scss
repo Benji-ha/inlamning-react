@@ -1,0 +1,99 @@
+.card {
+    border-radius: 8px;
+    background-color: #D0D0D0;
+    width: 382px;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 29px;
+        font-family: "PT Mono";
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 12px;
+        margin: 2px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: "PT Mono";
+        font-weight: 400;
+        margin: 2px;
+        margin-right: 25px;
+        margin-left: 25px;
+        color:#000000CC ;
+    }
+  }
+
+  $rccs-evilcorp-background: linear-gradient(0deg, #F33355, #F33355), linear-gradient(248.3deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 100%);
+  $rccs-blockchain-background: linear-gradient(0deg, #8B58F9, #8B58F9), linear-gradient(248.52deg, rgba(0, 0, 0, 0.15) 1.49%, rgba(0, 0, 0, 0) 100%);
+  $rccs-ninjabank-background: linear-gradient(0deg, #222222, #222222), linear-gradient(248.3deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+  $rccs-bitcoin-background: linear-gradient(0deg, #FFAE34, #FFAE34), linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%);
+  
+  .evil-corp {
+    background: $rccs-evilcorp-background;
+  }
+  
+  .block-chain {
+    background: $rccs-blockchain-background;
+  }
+  
+  .ninja-bank {
+    background: $rccs-ninjabank-background;
+    color: white;
+  }
+
+  .ninja-bank p {
+    color: white;
+  }
+  
+  .bitcoin {
+    background: $rccs-bitcoin-background;
+  }
+
+  .card-images {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 2px;
+  }
+
+  .card-number {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .card-info-name, card-info-date {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "PT Mono";
+    margin-top: 30px;
+  }
+
+  .card-info-name {
+    align-items: flex-start;
+  }
+
+  .card-info-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+

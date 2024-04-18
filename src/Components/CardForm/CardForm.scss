@@ -1,0 +1,126 @@
+.card-form {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    width: 382px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-number-container {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+
+    .card-number-input {
+        height: 56px;
+        border-radius: 10px;
+    }
+
+    .card-number-text {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .name-text {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .name-input {
+        height: 56px;
+        border-radius: 10px;
+    }
+}
+
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    .date {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.ccv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-text, .ccv-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.date-input, .ccv-input {
+    height: 56px;
+    border-radius: 10px;
+}
+
+.vendor-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vendor-select {
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.add-card-button-container {
+    display: flex;
+    justify-content: center;
+
+    .add-card-button {
+        height: 3rem;
+        border-radius: 10px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+}
+
+.card-number-text, .name-text, .date-text, .ccv-text {
+    font-family: "PT Mono";  
+    color: #000000CC;  
+}
+
+.vendor-text {
+    font-family: "PT Mono";  
+    color: #000000CC;  
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.new-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+    margin-bottom: 2px;
+}
